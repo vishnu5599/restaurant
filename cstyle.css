@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-image: url(bg3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+input{
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+    border: 0ch;
+    transition: 0.5s ease;
+}
+input:hover{
+    height: 32px;
+    width: 300px;
+}
+textarea{
+    border-radius: 20px;
+    border: 0ch;
+    
+    transform: scale(1.2);
+}
+button{
+    border-radius: 50px 50px;
+    height: 50px;
+    width: 82px;
+    background-color: aqua;
+    background-size: contain;
+    font-family:"Edu TAS Beginner" ,sans-serif,'Times New Roman', Times, serif  ;
+    color:white;
+    text-shadow: 2px 2px black;
+    border: 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.5s ease;
+    font-size: 30px;
+}
+label{
+    font-family:"Edu TAS Beginner" ,sans-serif,'Times New Roman', Times, serif  ;
+    color:white;
+    text-shadow: 2px 2px black;
+}
+p{
+    font-family:"Edu TAS Beginner" ,sans-serif,'Times New Roman', Times, serif  ;
+    color:white;
+    text-shadow: 2px 2px black;
+}
+h1{
+    font-family:"Edu TAS Beginner" ,sans-serif,'Times New Roman', Times, serif  ;
+    color:white;
+    text-shadow: 2px 2px black;
+}
+textarea:hover{
+     height: 150px;
+     width: 300px;
+}
+button:hover{
+    background-color: red;
+    height: 60px;
+    width: 100px;
+}
